@@ -1,4 +1,4 @@
-<!-- footer start (Add "light" class to #footer in order to enable light footer) -->
+            <!-- footer start (Add "light" class to #footer in order to enable light footer) -->
             <!-- ================ -->
             <footer id="footer">
 
@@ -9,7 +9,7 @@
                         <div class="row">
                             <div class="col-md-10">
                                 <div class="footer-content">
-                                    <div class="logo-footer"><img id="logo-footer" src="images/nahorr_logo.png" alt=""></div>
+                                    <div class="logo-footer"><img id="logo-footer" src="{{asset('idea/images/nahorr_logo.png')}}" alt=""></div>
                                     <div class="row">
                                         <div class="col-sm-8">
                                             <p>Nahorr Analytics is a software and data analytics company. We bring software, data and ideas together to meet local and global needs. We belive in using software and data to better processes and to provide and display information in a manner that improves decision making and planning.</p>
@@ -53,3 +53,4 @@
                     </div>
                 </div>
                 <!-- .footer end -->
+                

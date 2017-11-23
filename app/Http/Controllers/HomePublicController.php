@@ -8,26 +8,26 @@ class HomePublicController extends Controller
 {
     public function index()
     {
-    	return view('/welcome');
+    	return view('welcome');
     }
 
      public function about()
     {
-    	return view('/about');
+    	return view('about');
     }
 
      public function productsServices()
     {
-    	return view('/products-services');
+    	return view('products-services');
     }
 
     public function careers()
     {
-    	return view('/careers');
+    	return view('careers');
     }
 
-     public function contact()
+    public function contact()
     {
-    	return view('/contact');
+    	return view('contact');
     }
 }

@@ -58,7 +58,7 @@
 
                                 <!-- logo -->
                                 <div class="logo">
-                                    <a href="{{url('/')}}"><img id="logo" src="images/nahorr_logo.png" alt="nahorr"></a>
+                                    <a href="{{url('/')}}"><img id="logo" src="{{asset('idea/images/nahorr_logo.png')}}" alt="nahorr"></a>
                                 </div>
 
                             </div>
@@ -140,7 +140,7 @@
                                                     <li class="dropdown">
                                                         <a href="{{url('/careers')}}" class="dropdown-toggle" data-toggle="dropdown">Careers</a>
                                                         <ul class="dropdown-menu">
-                                                            <li><a href="{{url('/careers/jobs')}}">Job Openings <span class="default-bg badge">1 New</span></a></li>
+                                                            <li><a href="{{url('/careers')}}">Job Openings <span class="default-bg badge">1 New</span></a></li>
                                                         </ul>
                                                     </li>   
                                                     <!-- mega-menu end -->
