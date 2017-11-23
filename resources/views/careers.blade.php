@@ -42,7 +42,7 @@
 											<font color="#d3b61c"><strong>({{@$job->date_closing->diffForHumans()}})</strong></font>
 										</td>
 										<td>
-											<a href="#" class="btn radius btn-info btn-sm"><strong>Apply</strong></a>
+											<a href="{{asset('/careers/jobdetails/'.Crypt::encrypt($job->id)) }}" class="btn radius btn-info btn-sm"><strong>Apply</strong></a>
 										</td>
 									</tr>
 									@endforeach

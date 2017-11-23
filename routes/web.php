@@ -17,7 +17,11 @@ Route::get('/', 'HomePublicController@index');
 Route::get('/about', 'HomePublicController@about');
 Route::get('/products-services', 'HomePublicController@productsServices');
 Route::get('/careers', 'HomePublicController@careers');
+Route::get('/careers/jobdetails/{job}', 'HomePublicController@jobDetails');
 Route::get('/contact', 'HomePublicController@contact');
+
+//careers
+
 
 //Auth routes
 Auth::routes();
