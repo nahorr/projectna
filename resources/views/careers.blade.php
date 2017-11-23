@@ -28,30 +28,24 @@
 										<th>Job Title</th>
 										<th>Date Posted</th>
 										<th>Closing Date</th>
-										<th>View Details & Apply</th>
+										<th>Apply</th>
 									</tr>
 								</thead>
 								<tbody>
+									@foreach($jobs as $key=>$job)
 									<tr>
-										<td>1</td>
-										<td>Mark</td>
-										<td>Otto</td>
-										<td>@mdo</td>
-										<td>@mdo</td>
+										<td>{{@$key+1}}</td>
+										<td>{{@$job->job_title}}</td>
+										<td>{{@$job->created_at->toFormattedDateString()}}</td>
+										<td>
+											{{@$job->date_closing->toFormattedDateString()}}
+											<font color="#d3b61c"><strong>({{@$job->date_closing->diffForHumans()}})</strong></font>
+										</td>
+										<td>
+											<a href="#" class="btn radius btn-info btn-sm"><strong>Apply</strong></a>
+										</td>
 									</tr>
-									<tr>
-										<td>2</td>
-										<td>Jacob</td>
-										<td>Thornton</td>
-										<td>@fat</td>
-										<td>@mdo</td>
-									</tr>
-									<tr>
-										<td>3</td>
-										<td>Larry the Bird</td>
-										<td>@twitter</td>
-										<td>@mdo</td>
-									</tr>
+									@endforeach
 								</tbody>
 							</table>
 						</div>

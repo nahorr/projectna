@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Carbon\Carbon;
+use App\Job;
+
 
 class HomePublicController extends Controller
 {
@@ -23,7 +26,9 @@ class HomePublicController extends Controller
 
     public function careers()
     {
-    	return view('careers');
+        $jobs = Job::latest()->get();
+
+    	return view('careers', compact('jobs'));
     }
 
     public function contact()
