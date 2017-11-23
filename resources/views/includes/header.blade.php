@@ -58,7 +58,7 @@
 
                                 <!-- logo -->
                                 <div class="logo">
-                                    <a href="index.html"><img id="logo" src="images/nahorr_logo.png" alt="nahorr"></a>
+                                    <a href="{{url('/')}}"><img id="logo" src="images/nahorr_logo.png" alt="nahorr"></a>
                                 </div>
 
                             </div>

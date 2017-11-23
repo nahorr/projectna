@@ -11,10 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
+//Home public - pages accessible to the public
+Route::get('/', 'HomePublicController@index');
+Route::get('/about', 'HomePublicController@about');
+Route::get('/products-services', 'HomePublicController@productsServices');
+Route::get('/careers', 'HomePublicController@careers');
+Route::get('/contact', 'HomePublicController@contact');
+
+//Auth routes
 Auth::routes();
 
+//Logged in uers
 Route::get('/home', 'HomeController@index')->name('home');
