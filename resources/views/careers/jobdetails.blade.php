@@ -17,7 +17,7 @@
 
 							<!-- page-title start -->
 							<!-- ================ -->
-							<h1 class="page-title">{{@$job->job_title}}</h1>
+							<h1 class="page-title">Position - {{@$job->job_title}}</h1>
 							<!-- page-title end -->
 
 							<!-- blogpost start -->
@@ -37,11 +37,18 @@
 										</header>
 										
 										<p>{{@$job->job_description}}</p>
+										<ul class="list-icons">
+											@foreach($job_requirements as $requirement)
+											<li><i class="icon-check"></i> {{$requirement->req_description}} </li>
+											@endforeach
+										</ul>
 										
 									</div>
 								</div>
 								<footer class="clearfix">
+									<a href="{{ asset('/careers/jobapplicationform/'.Crypt::encrypt($job->id)) }}">
 									<button type="button" class="btn btn-warning btn-lg btn-block">APPLY NOW</button>
+									</a>
 								</footer>
 							</article>
 							<!-- blogpost end -->
