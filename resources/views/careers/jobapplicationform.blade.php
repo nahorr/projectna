@@ -76,7 +76,7 @@
 											<label for="inputState" class="col-sm-3 control-label">State<span class="text-danger small">*</span></label>
 											<div class="col-sm-8">
 												<input type="text" name="state" class="form-control" id="inputState" placeholder="Your State" required>
-												<i class="fa fa-map-pin-o form-control-feedback"></i>
+												<i class="fa fa-map-pin form-control-feedback"></i>
 											</div>
 										</div>
 										
