@@ -1,6 +1,6 @@
 <?php namespace App\Traits;
 
-use Input;
+use Illuminate\Http\Request;
 use ReCaptcha\ReCaptcha;
 
 trait CaptchaTrait {
@@ -8,7 +8,7 @@ trait CaptchaTrait {
     public function captchaCheck()
     {
 
-        $response = Input::get('g-recaptcha-response');
+        $response = Request::get('g-recaptcha-response');
         $remoteip = $_SERVER['REMOTE_ADDR'];
         $secret   = env('RE_CAPTCHA_SECRET');
 
