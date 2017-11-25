@@ -17,7 +17,7 @@
 
 							<!-- page-title start -->
 							<!-- ================ -->
-							<h1 class="page-title">Position - {{@$job->job_title}}</h1>
+							<h1 class="page-title">Position: {{@$job->job_title}}</h1>
 							<!-- page-title end -->
 
 							<!-- blogpost start -->
@@ -33,7 +33,11 @@
 									</div>
 									<div class="blogpost-content">
 										<header>
-											<div class="submitted"><i class="fa fa-clock-o pr-5"></i> Closing <a href="#">{{@$job->date_closing->diffForHumans()}}</a></div>
+											<div class="submitted">
+												<strong>
+												<i class="fa fa-clock-o pr-5"></i> Closing <a href="#">{{@$job->date_closing->diffForHumans()}}</a> &nbsp;&nbsp;&nbsp;
+												<i class="fa fa-money pr-5"></i><a href="#">{{@$job->job_salary}}</a></div>
+												</strong>
 										</header>
 										
 										<p>{{@$job->job_description}}</p>

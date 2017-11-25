@@ -59,7 +59,7 @@
 											</div>
 										</div>
 										<div class="form-group has-feedback">
-											<label for="inputStreet" class="col-sm-3 control-label">Street Address <span class="text-danger small">*</span></label>
+											<label for="inputStreet" class="col-sm-3 control-label">Address <span class="text-danger small">*</span></label>
 											<div class="col-sm-8">
 												<input type="text" name="street" class="form-control" id="inputStreet" placeholder="Street Address" required>
 												<i class="fa fa-map-pin form-control-feedback"></i>
