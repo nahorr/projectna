@@ -8,7 +8,7 @@ use Crypt;
 use App\Job;
 use App\JobRequirement;
 use App\JobApplication;
-
+use ReCaptcha\ReCaptcha;
 
 class HomePublicController extends Controller
 {
@@ -53,8 +53,8 @@ class HomePublicController extends Controller
 
     public function postJobApplicationForm(Request $r)
     {
-       $must_haves = $r->input('must_haves');
-       $check = 'i-am-human';
+       
+       $r['captcha'] = $this->captchaCheck();
       
         $this->validate($r, [
         'job_id' => 'required',
@@ -65,10 +65,18 @@ class HomePublicController extends Controller
         'street' => 'required',
         'city' => 'required',
         'state' => 'required',
-        'robot_check' => 'required|string|same:check',
         'must_haves' => 'required',
+        'g-recaptcha-response' => 'required',
+        'captcha' => 'required|min:1',
         
-        ]);
+        ],
+
+        [
+                'g-recaptcha-response.required' => 'Captcha is required',
+                'captcha.min'           => 'Wrong captcha, please try again.'
+            ]
+
+        );
  
        JobApplication::insert([
             'job_id'=>$r->job_id,
@@ -82,6 +90,7 @@ class HomePublicController extends Controller
             'must_haves'=>$r->must_haves,
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
+
              
         ]);
  
