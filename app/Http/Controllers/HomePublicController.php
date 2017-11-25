@@ -8,10 +8,12 @@ use Crypt;
 use App\Job;
 use App\JobRequirement;
 use App\JobApplication;
-use ReCaptcha\ReCaptcha;
+use App\Traits\CaptchaTrait;
 
 class HomePublicController extends Controller
 {
+    use CaptchaTrait;
+
     public function index()
     {
     	return view('welcome');
