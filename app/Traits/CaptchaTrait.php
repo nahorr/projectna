@@ -1,7 +1,8 @@
 <?php namespace App\Traits;
 
-use Illuminate\Http\Request;
+
 use ReCaptcha\ReCaptcha;
+use Request;
 
 trait CaptchaTrait {
 
