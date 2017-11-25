@@ -93,9 +93,8 @@
 										</div>
 										
 										<div class="form-group">
-											<div class="well">
 											<div class="col-sm-offset-3 col-sm-8">
-												
+												<div class="well">
 												Please review the must-have requirements below:
 												<ul class="list-icons">
 													@foreach($job_requirements as $requirement)
@@ -104,22 +103,19 @@
 														@endif
 													@endforeach
 												</ul>
-											
-											</div>
-											<div class="col-sm-offset-3 col-sm-8">
-												 <div class="checkbox checkbox-success">
+												<div class="checkbox checkbox-success">
 													<label>
 														<input type="checkbox" name="must_haves" value="0"><input type="checkbox" name="must_haves" value="1" />
 														<a><strong>Do you meet all the requirements listed above?</strong></a>
 													</label>
 												</div>
-												
-											</div>
+											    </div>
 											</div>
 										</div>
+											
 										<div class="form-group">
 											<div class="col-sm-offset-3 col-sm-8">
-										<div class="g-recaptcha" data-sitekey="{{env('RE_CAPTCHA_SITEKEY')}}"></div>
+												<div class="g-recaptcha" data-sitekey="{{env('RE_CAPTCHA_SITEKEY')}}"></div>
 											</div>
 										</div>
 
