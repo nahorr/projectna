@@ -93,8 +93,9 @@
 										</div>
 										
 										<div class="form-group">
+											<div class="well">
 											<div class="col-sm-offset-3 col-sm-8">
-												<div class="well">
+												
 												Please review the must-have requirements below:
 												<ul class="list-icons">
 													@foreach($job_requirements as $requirement)
@@ -103,7 +104,7 @@
 														@endif
 													@endforeach
 												</ul>
-											</div>
+											
 											</div>
 											<div class="col-sm-offset-3 col-sm-8">
 												 <div class="checkbox checkbox-success">
@@ -114,7 +115,7 @@
 												</div>
 												
 											</div>
-											
+											</div>
 										</div>
 										<div class="form-group">
 											<div class="col-sm-offset-3 col-sm-8">
