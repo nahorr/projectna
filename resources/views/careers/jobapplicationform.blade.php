@@ -61,7 +61,7 @@
 										<div class="form-group has-feedback">
 											<label for="inputStreet" class="col-sm-3 control-label">Address <span class="text-danger small">*</span></label>
 											<div class="col-sm-8">
-												<textarea type="text" name="street" class="form-control" id="inputStreet" placeholder="Street Address" required></textarea>
+												<textarea type="text" name="street" class="form-control" id="inputStreet" placeholder="Address" required></textarea>
 												<i class="fa fa-map-pin form-control-feedback"></i>
 											</div>
 										</div>
@@ -79,10 +79,22 @@
 												<i class="fa fa-map-pin form-control-feedback"></i>
 											</div>
 										</div>
+										<div class="form-group has-feedback">
+											<label class="col-sm-3 control-label" style="font-size: 12px;">Why do you think this position is for you?<span class="text-danger small">*</span></label>
+											<div class="col-sm-8">
+												<textarea type="text" name="street" class="form-control" id="inputStreet" placeholder="Address" required></textarea>
+												<i class="fa fa-map-pin form-control-feedback"></i>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-sm-3 control-label" for="exampleInputFile">CV Upload</label>
+											<input type="file" id="exampleInputFile" required="">
+											<p class="help-block">Please upload your cv in pdf or doc format.</p>
+										</div>
 										
 										<div class="form-group">
 											<div class="col-sm-offset-3 col-sm-8">
-												
+												<div class="well">
 												Please review the must-have requirements below:
 												<ul class="list-icons">
 													@foreach($job_requirements as $requirement)
@@ -91,6 +103,7 @@
 														@endif
 													@endforeach
 												</ul>
+											</div>
 											</div>
 											<div class="col-sm-offset-3 col-sm-8">
 												 <div class="checkbox checkbox-success">
