@@ -24,7 +24,7 @@
 								<div class="form-block center-block">
 									<h2 class="title">Application Form - {{$job->job_title}} </h2>
 									<hr>
-									<form class="form-horizontal" role="form" action="{{url('/careers/postjobapplicationform/')}}" method="POST">
+									<form class="form-horizontal" role="form" action="{{url('/careers/postjobapplicationform/')}}" method="POST" enctype="multipart/form-data">
 									{{ csrf_field() }}
 
 										<input type="hidden" name="job_id" class="form-control" id="inputJodId" value="{{$job->id}}" required>
@@ -82,13 +82,13 @@
 										<div class="form-group has-feedback">
 											<label class="col-sm-3 control-label" style="font-size: 12px;">Why do you think this position is for you?<span class="text-danger small">*</span></label>
 											<div class="col-sm-8">
-												<textarea type="text" name="street" class="form-control" id="inputStreet" placeholder="Address" required></textarea>
+												<textarea type="text" name="reason_qualify" class="form-control" id="inputStreet" placeholder="Address" required></textarea>
 												<i class="fa fa-map-pin form-control-feedback"></i>
 											</div>
 										</div>
 										<div class="form-group">
 											<label class="col-sm-3 control-label" for="exampleInputFile">CV Upload</label>
-											<input type="file" id="exampleInputFile" required="">
+											<input type="file" name="applicant_cv"id="exampleInputFile" required="">
 											<p class="help-block">Please upload your cv in pdf or doc format.</p>
 										</div>
 										

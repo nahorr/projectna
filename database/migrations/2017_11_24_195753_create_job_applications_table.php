@@ -24,7 +24,9 @@ class CreateJobApplicationsTable extends Migration
             $table->string('street');
             $table->string('city');
             $table->string('state');
-            $table->boolean('must_haves')->default(false);
+            $table->string('reason_qualify');
+            $table->string('applicant_cv');
+            $table->boolean('must_haves');
             $table->timestamps();
         });
     }

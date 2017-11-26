@@ -9,6 +9,9 @@ use App\Job;
 use App\JobRequirement;
 use App\JobApplication;
 use App\Traits\CaptchaTrait;
+use Illuminate\Support\Facades\Storage;
+use File;
+
 
 class HomePublicController extends Controller
 {
@@ -67,6 +70,8 @@ class HomePublicController extends Controller
         'street' => 'required',
         'city' => 'required',
         'state' => 'required',
+        'reason_qualify' => 'required',
+        'applicant_cv' => 'required|mimes:pdf,doc|max:10000',
         'must_haves' => 'required',
         'g-recaptcha-response' => 'required',
         'captcha' => 'required|min:1',
@@ -74,11 +79,22 @@ class HomePublicController extends Controller
         ],
 
         [
-                'g-recaptcha-response.required' => 'Captcha is required',
-                'captcha.min'           => 'Wrong captcha, please try again.'
-            ]
+         'g-recaptcha-response.required' => 'Captcha is required',
+         'captcha.min' => 'Wrong captcha, please try again.'
+        ]
 
         );
+
+        if($r->hasFile('applicant_cv')){
+            $applicant_cv = $r->file('applicant_cv');
+            $filename = time() . '.' . $applicant_cv->getClientOriginalExtension();
+            $destinationPath = public_path().'/job_application/' ;
+
+            $applicant_cv->move($destinationPath,$filename);
+            
+        }
+
+        
  
        JobApplication::insert([
             'job_id'=>$r->job_id,
@@ -89,6 +105,8 @@ class HomePublicController extends Controller
             'street'=>$r->street,
             'city'=>$r->city,
             'state'=>$r->state,
+            'reason_qualify'=>$r->reason_qualify,
+            'applicant_cv'=>$filename,
             'must_haves'=>$r->must_haves,
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
