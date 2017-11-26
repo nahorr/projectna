@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'nahorrAnalytics'),
+    'name' => env('APP_NAME', 'Nahorr Analytics'),
 
     /*
     |--------------------------------------------------------------------------
