@@ -106,7 +106,7 @@
 												<div class="checkbox checkbox-success">
 													<label>
 														<input type="checkbox" name="must_haves" value="0"><input type="checkbox" name="must_haves" value="1" />
-														<a><strong>Do you meet all the requirements listed above?</strong></a>
+														<a><strong>Yes, I meet all the requirements listed above.</strong></a>
 													</label>
 												</div>
 											    </div>
