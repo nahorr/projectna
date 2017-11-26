@@ -22,9 +22,6 @@ Route::get('/careers/jobapplicationform/{job}', 'HomePublicController@jobApplica
 Route::post('/careers/postjobapplicationform', 'HomePublicController@postJobApplicationForm');
 Route::get('/contact', 'HomePublicController@contact');
 
-//careers
-
-
 //Auth routes
 Auth::routes();
 

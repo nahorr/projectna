@@ -44,9 +44,9 @@ class ApplicationSubmitted extends Notification
     {
         
         return (new MailMessage)
-                    ->line('Welcome '.$this->my_notification)
-                    ->action('Nahorr Analytics', 'https://nahorr.com/')
-                    ->line('We will be contacting you shorthly.');
+                    ->line('Hello. '.$this->my_notification)
+                    ->action('Nahorr Analytics', 'https://nahorr.com/login')
+                    ->line('Please use the link above to login and view the application.');
     }
 
     /**

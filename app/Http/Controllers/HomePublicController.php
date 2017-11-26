@@ -122,7 +122,7 @@ class HomePublicController extends Controller
 
         $user = User::first();
  
-        $user->notify(new ApplicationSubmitted("A new application has been submitted."));
+        $user->notify(new ApplicationSubmitted("A new job application has been submitted."));
 
                
         flash('Your Job Application was Submitted successfully. We will be contacting you soon!')->success();
