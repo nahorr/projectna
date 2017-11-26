@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use Illuminate\Support\Facades\Storage;
+
+
 use Illuminate\Http\Request;
 use Carbon\Carbon;
 use Crypt;
@@ -9,14 +12,17 @@ use App\Job;
 use App\JobRequirement;
 use App\JobApplication;
 use App\Traits\CaptchaTrait;
-use Illuminate\Support\Facades\Storage;
+use Notification;
 use File;
+use App\Notifications\ApplicationSubmitted;
+use App\User;
 
 
 class HomePublicController extends Controller
 {
     use CaptchaTrait;
-
+   
+   
     public function index()
     {
     	return view('welcome');
@@ -75,7 +81,7 @@ class HomePublicController extends Controller
         'must_haves' => 'required',
         'g-recaptcha-response' => 'required',
         'captcha' => 'required|min:1',
-        
+
         ],
 
         [
@@ -96,7 +102,7 @@ class HomePublicController extends Controller
 
         
  
-       JobApplication::insert([
+       $job_application = JobApplication::insert([
             'job_id'=>$r->job_id,
             'first_name'=>$r->first_name,
             'last_name'=>$r->last_name,
@@ -113,12 +119,18 @@ class HomePublicController extends Controller
 
              
         ]);
+
+        $user = User::first();
  
-       flash('Your Job Application was Submitted successfully. We will be contacting you soon!')->success();
+        $user->notify(new ApplicationSubmitted("A new application has been submitted."));
+
+               
+        flash('Your Job Application was Submitted successfully. We will be contacting you soon!')->success();
       
        return back();  
     }
 
+   
     public function contact()
     {
     	return view('contact');
