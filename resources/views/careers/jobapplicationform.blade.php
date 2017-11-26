@@ -82,8 +82,8 @@
 										<div class="form-group has-feedback">
 											<label class="col-sm-3 control-label" style="font-size: 12px;">Why do you think this position is for you?<span class="text-danger small">*</span></label>
 											<div class="col-sm-8">
-												<textarea type="text" name="reason_qualify" class="form-control" id="inputStreet" placeholder="Address" required></textarea>
-												<i class="fa fa-map-pin form-control-feedback"></i>
+												<textarea type="text" name="reason_qualify" class="form-control" id="inputStreet" placeholder="Please tell us why you believe you are qualified for this position." required></textarea>
+												<i class="fa fa-pencil form-control-feedback"></i>
 											</div>
 										</div>
 										<div class="form-group">
