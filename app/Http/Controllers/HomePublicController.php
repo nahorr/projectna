@@ -143,7 +143,7 @@ class HomePublicController extends Controller
         'last_name' => 'required',
         'phone' => 'required',
         'email' => 'required|email',
-        'message' => 'required'
+        'message' => 'required',
         'g-recaptcha-response' => 'required',
         'captcha' => 'required|min:1',
         ],
