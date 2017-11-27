@@ -20,7 +20,7 @@ class ContactFormSubmitted extends Notification
      */
     public function __construct($msg)
     {
-        $this->$contact_form_notification = $msg;
+        $this->contact_form_notification = $msg;
     }
 
     /**
