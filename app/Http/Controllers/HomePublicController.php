@@ -16,7 +16,7 @@ use Notification;
 use File;
 use App\Notifications\ApplicationSubmitted;
 use App\User;
-
+use App\ContactUs;
 
 class HomePublicController extends Controller
 {
@@ -87,9 +87,7 @@ class HomePublicController extends Controller
         [
          'g-recaptcha-response.required' => 'Captcha is required',
          'captcha.min' => 'Wrong captcha, please try again.'
-        ]
-
-        );
+        ]);
 
         if($r->hasFile('applicant_cv')){
             $applicant_cv = $r->file('applicant_cv');
@@ -134,5 +132,42 @@ class HomePublicController extends Controller
     public function contact()
     {
     	return view('contact');
+    }
+
+
+    public function postContactForm(Request $request)
+    {
+                  
+        $this->validate($request, [
+        'first_name' => 'required',
+        'last_name' => 'required',
+        'phone' => 'required',
+        'email' => 'required|email',
+        'message' => 'required'
+        'g-recaptcha-response' => 'required',
+        'captcha' => 'required|min:1',
+        ],
+        [
+         'g-recaptcha-response.required' => 'Captcha is required',
+         'captcha.min' => 'Wrong captcha, please try again.'
+        ]);
+
+        $contact_us = ContactUs::insert([
+       'first_name'=>$request->first_name,
+        'last_name'=>$request->last_name,
+        'phone'=>$request->phone,
+        'email'=>$request->email,
+        'message'=>$request->message,
+        'created_at' => date('Y-m-d H:i:s'),
+        'updated_at' => date('Y-m-d H:i:s'),
+        ]);
+
+        $user = User::first();
+ 
+        $user->notify(new ContactFormSubmitted("A new contact form has been submitted."));
+
+       flash('Your message was sent successfully. We will be contacting you soon!')->success();
+      
+        return back();  
     }
 }

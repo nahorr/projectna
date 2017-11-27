@@ -15,7 +15,7 @@
                                 <li data-transition="random" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title="Premium HTML5 template">
                                 
                                 <!-- main image -->
-                                <img src="images/slider-1-slide-1.jpg"  alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                                <img src="{{asset('idea/images/slider-1-slide-1.jpg')}}"  alt="slidebg1" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
                                 <!-- LAYER NR. 1 -->
                                 <div class="tp-caption default_bg large sfr tp-resizeme"
@@ -126,7 +126,7 @@
                                 <li data-transition="random" data-slotamount="7" data-masterspeed="500" data-saveperformance="on" data-title="Powerful Bootstrap Theme">
                                 
                                 <!-- main image -->
-                                <img src="images/slider-1-slide-3.jpg"  alt="kenburns"  data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="115" data-bgpositionend="right center">
+                                <img src="{{asset('idea/images/slider-1-slide-3.jpg')}}"  alt="kenburns"  data-bgposition="left center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="115" data-bgpositionend="right center">
 
                                 <!-- LAYER NR. 1 -->
                                 <div class="tp-caption white_bg large sfr tp-resizeme"
