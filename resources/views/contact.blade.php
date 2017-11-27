@@ -46,7 +46,7 @@
 									<div class="form-group has-feedback">
 										<label for="inputPhone" class="col-sm-3 control-label">Phone <span class="text-danger small">*</span></label>
 										<div class="col-sm-8">
-											<input type="text" name="phone" class="form-control" id="inputPhone" placeholder="Email" required>
+											<input type="text" name="phone" class="form-control" id="inputPhone" placeholder="Phone" required>
 											<i class="fa fa-phone form-control-feedback"></i>
 										</div>
 									</div>

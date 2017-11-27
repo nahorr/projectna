@@ -15,6 +15,7 @@ use App\Traits\CaptchaTrait;
 use Notification;
 use File;
 use App\Notifications\ApplicationSubmitted;
+use App\Notifications\ContactFormSubmitted;
 use App\User;
 use App\ContactUs;
 
@@ -137,7 +138,8 @@ class HomePublicController extends Controller
 
     public function postContactForm(Request $request)
     {
-                  
+        $request['captcha'] = $this->captchaCheck();
+
         $this->validate($request, [
         'first_name' => 'required',
         'last_name' => 'required',
@@ -168,6 +170,6 @@ class HomePublicController extends Controller
 
        flash('Your message was sent successfully. We will be contacting you soon!')->success();
       
-        return back();  
+       return back();  
     }
 }
