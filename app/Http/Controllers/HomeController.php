@@ -4,6 +4,12 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\JobApplication;
+use App\ContactUs;
+use App\User;
+use App\Job;
+
+
 class HomeController extends Controller
 {
     /**
@@ -23,7 +29,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        
-        return view('home');
+
+        $jobs = Job::get();
+
+        $contactus = ContactUs::get();
+
+        $users = User::get();
+
+        //$admin_users = User::where('is_admin', '=', 1)->get();
+
+        return view('home', compact('jobs', 'contactus', 'users', 'admin_users'));
     }
 }
