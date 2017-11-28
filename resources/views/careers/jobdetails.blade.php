@@ -25,8 +25,9 @@
 								<div class="blogpost-body">
 									<div class="side">
 										<div class="post-info">
+											<span>Closes</span>
 											<span class="day">{{@$job->date_closing->day}}</span>
-											<span class="month">{{@$job->date_closing->format('M')}} {{@$job->date_closing->year}}</span>
+											<span class="month">{{@$job->date_closing->format('M')}}</span>
 
 										</div>
 										
@@ -40,12 +41,20 @@
 												</strong>
 										</header>
 										
-										<p>{{@$job->job_description}}</p>
+										<strong><p>{{@$job->job_type}}</p></strong>
+										<p>{{@$job->intro}}</p>
+										<h3>{{@$job->about_us_title}}</h3>
+										<p>{{@$job->about_us}}</p>
+										<h3>{{@$job->d_and_r_title}}</h3>
+										<p>{{@$job->duties_and_responsibilities}}</p>
 										<ul class="list-icons">
 											@foreach($job_requirements as $requirement)
 											<li><i class="icon-check"></i> {{$requirement->req_description}} </li>
 											@endforeach
 										</ul>
+										<p>{{@$job->afterword}}</p>
+										<p>For details, please visit the <strong><a href="{{asset('/careers')}}">career section</a></strong> of and complete an online application.</p>
+
 										
 									</div>
 								</div>
