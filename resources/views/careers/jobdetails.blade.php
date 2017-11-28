@@ -13,7 +13,7 @@
 
 						<!-- main start -->
 						<!-- ================ -->
-						<div class="main col-md-8">
+						<div class="main col-md-10">
 
 							<!-- page-title start -->
 							<!-- ================ -->
@@ -53,7 +53,7 @@
 											@endforeach
 										</ul>
 										<p>{{@$job->afterword}}</p>
-										<p>For details, please visit the <strong><a href="{{asset('/careers')}}">career section</a></strong> of and complete an online application.</p>
+										<p>For details, please visit our <strong><a href="{{asset('/careers')}}">careers section</a></strong> of and complete an online application.</p>
 
 										
 									</div>
