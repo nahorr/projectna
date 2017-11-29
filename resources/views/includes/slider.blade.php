@@ -238,6 +238,16 @@
                                     data-endspeed="600">Unparrelled Technical Support
                                 </div>
 
+                                <!-- LAYER NR. 11 -->
+                                <div class="tp-caption sfr tp-resizeme"
+                                    data-x="right"
+                                    data-y="center" 
+                                    data-speed="600"
+                                    data-start="2700"
+                                    data-end="9400"
+                                    data-endspeed="600"><img src="{{asset('idea/images/slider-1-layer-2.png')}}" alt="">
+                                </div>
+
 
                                 </li>
                                 <!-- slide 3 end -->
