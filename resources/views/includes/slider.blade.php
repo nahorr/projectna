@@ -24,7 +24,7 @@
                                     data-speed="600"
                                     data-start="1200"
                                     data-end="9400"
-                                    data-endspeed="600">nahorr Analytics
+                                    data-endspeed="600">Nahorr Analytics
                                 </div>
 
                                 <!-- LAYER NR. 2 -->
@@ -145,7 +145,7 @@
                                     data-speed="600"
                                     data-start="1200"
                                     data-end="9400"
-                                    data-endspeed="600">Project Totalgrades
+                                    data-endspeed="600">Improve Students' Performance With Totalgrades
                                 </div>
 
                                 <!-- LAYER NR. 2 -->
@@ -158,6 +158,7 @@
                                     data-endspeed="600"><i class="icon-check"></i>
                                 </div>
 
+                            
                                 <!-- LAYER NR. 3 -->
                                 <div class="tp-caption white_bg sfb medium tp-resizeme"
                                     data-x="50"
