@@ -157,7 +157,7 @@
 
                             <h1 class="text-center">Why Choose Nahorr Analytics</h1>
                             <div class="separator"></div>
-                            <p class="lead text-center">Because we strive to provide innovative, affordable and cost effective solutions to educational institutions, corporations, and government institutions. We work with our clients to meet their goals and we make a commitment to be accessible and accountable to all our clients.</p>
+                            <p class="lead text-center">Because we strive to provide innovative, affordable and cost effective solutions to educational institutions, corporations, and government institutions, you can trust us to meet your needs and expectations.</p>
                             
                             <div class="col-md-4 col-md-offset-4">
                                 <div class="text-center">
