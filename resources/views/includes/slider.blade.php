@@ -145,7 +145,7 @@
                                     data-speed="600"
                                     data-start="1200"
                                     data-end="9400"
-                                    data-endspeed="600">Improve Students' Performance With Totalgrades
+                                    data-endspeed="600">Totalgrades - Online Gradebook
                                 </div>
 
                                 <!-- LAYER NR. 2 -->
