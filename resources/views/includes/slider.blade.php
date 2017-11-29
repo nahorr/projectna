@@ -117,6 +117,16 @@
                                     data-endspeed="600">And Much More...
                                 </div>
 
+                                <!-- LAYER NR. 11 -->
+                                <div class="tp-caption sfr tp-resizeme"
+                                    data-x="right"
+                                    data-y="center" 
+                                    data-speed="600"
+                                    data-start="2700"
+                                    data-end="9400"
+                                    data-endspeed="600"><img src="images/slider-1-layer-1.png" alt="">
+                                </div>
+
                                 
                                 </li>
                                 <!-- slide 1 end -->
