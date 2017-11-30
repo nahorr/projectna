@@ -93,6 +93,14 @@
                     </li>
                   </ul>
                 </li>
+                @if(Auth::user()->is_admin)
+                <li role="presentation" class="dropdown">
+                  <a href="" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-user-plus"></i>
+                    
+                  </a>
+                </li>
+                @endif
               </ul>
             </nav>
           </div>

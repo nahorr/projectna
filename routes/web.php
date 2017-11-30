@@ -28,3 +28,9 @@ Auth::routes();
 
 //Logged in uers
 Route::get('/home', 'HomeController@index')->name('home');
+
+//Logged in Admin users
+Route::group(['prefix' => 'administration', 'middleware' => ['auth', 'admin']], function()
+{
+	Route::get('/adminhome', 'Admin\HomeController@index');
+});
