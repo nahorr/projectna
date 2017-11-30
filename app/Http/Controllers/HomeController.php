@@ -32,12 +32,14 @@ class HomeController extends Controller
 
         $jobs = Job::get();
 
+        $job_applications = JobApplication::get();
+
         $contactus = ContactUs::get();
 
         $users = User::get();
 
         //$admin_users = User::where('is_admin', '=', 1)->get();
 
-        return view('home', compact('jobs', 'contactus', 'users', 'admin_users'));
+        return view('home', compact('jobs', 'contactus', 'users', 'admin_users', 'job_applications'));
     }
 }
