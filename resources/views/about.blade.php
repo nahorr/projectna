@@ -47,7 +47,7 @@
 										<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="300"><i class="icon-check"></i> Data Driven Website Development</li>
 										<li class="object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="500"><i class="icon-check"></i>Training and Talent Development</li>
 									</ul>
-									<a class="btn btn-lg btn-default" href="page-team.html"><i class="fa fa-users pr-10"></i> Contact Us</a>
+									<a class="btn btn-lg btn-default" href="{{asset('/contact')}}"><i class="fa fa-users pr-10"></i> Contact Us</a>
 								</div>
 								<!-- sidebar start -->
 								<aside class="sidebar col-md-4">
@@ -59,7 +59,7 @@
 												<div class="gallery-item col-xs-4">
 													<div class="overlay-container">
 														<img src="{{asset('idea/images/totalgrades.jpg')}}" alt="totalgrades">
-														<a href="https://totalgrades.com/" class="overlay small">
+														<a href="https://totalgrades.com/" target="_blank" class="overlay small">
 															<i class="fa fa-link"></i>
 														</a>
 													</div>
