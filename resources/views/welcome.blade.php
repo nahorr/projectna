@@ -14,9 +14,9 @@
                         <div class="col-md-8 col-md-offset-2">
                             <div class="call-to-action">
                                 <h1 class="title">Welcome!</h1>
-                                <p>Nahorr analytics is a software and data analytics company...</p>
+                                <p>Nahorr analytics is a software and data analytics company.</p>
                                 <a class="btn btn-white more" data-toggle="modal" data-target="#myModal">
-                                Read more <i class="pl-10 fa fa-info"></i>
+                                Call or Whatsapp Us<i class="pl-10 fa fa-phone"></i>
                                 </a>
 
                                 <!-- Modal -->
@@ -25,19 +25,17 @@
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                                                <h4 class="modal-title" id="myModalLabel">Nahorr Analytics.</h4>
+                                                <h4 class="modal-title" id="myModalLabel">Call or Whatsapp Us.</h4>
                                             </div>
                                             <div class="modal-body">
-                                                <p>Nahorr Analytics is a software and data analytics company. We bring software, data and ideas together to meet local and global needs. We belive in using software and data to better processes and to provide and display information in a manner that improves decision making and planning.</p>
-                                                <h2>Core Services</h2>
+                                                <p>You can call us or chat with us on Whatsapp</p>
+                                             
                                                 <ul class="list-icons">
-                                                    <li><i class="icon-check"></i> Data Analysis</li>
-                                                    <li><i class="icon-check"></i> Software Development</li>
-                                                    <li><i class="icon-check"></i> Data Driven Website Design</li>
-                                                    <li><i class="icon-check"></i> Training</li>
-                                                    <li><i class="icon-check"></i> Talent Development</li>
+                                                    <li><i class="icon-check"></i> Phone(Nigeria): 08035525141</li>
+                                                    <li><i class="icon-check"></i> Phone(Canada): +14034022387</li>
+                                                    
                                                 </ul>
-                                                <p>We are a new but fast growing company made up of a team of thinkers, builders, doers, and innovators. We bring passion to we do. We meet opportunities and challenges head-on, with unwavering optimism, innovation, collaboration, and resourcefulness.</p>
+                                               
                                             </div>
                                             <div class="modal-footer">
                                                 <a href="{{asset('/contact')}}" type="button" class="btn btn-sm btn-default" role="button"><i class="icon-check"></i> Contact us</a>

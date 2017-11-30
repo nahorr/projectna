@@ -59,7 +59,7 @@
 												<div class="gallery-item col-xs-4">
 													<div class="overlay-container">
 														<img src="{{asset('idea/images/totalgrades.jpg')}}" alt="totalgrades">
-														<a href="portfolio-item.html" class="overlay small">
+														<a href="https://totalgrades.com/" class="overlay small">
 															<i class="fa fa-link"></i>
 														</a>
 													</div>
