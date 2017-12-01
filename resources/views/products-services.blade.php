@@ -90,7 +90,7 @@
 					<div class="col-md-12">
 						<h1 class="text-center title">Products</h1>
 						<div class="separator"></div>
-						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p class="text-center">Totalgrades is our latest product.</p>
 						<div class="row grid-space-20">
 							<div class="col-md-12 col-lg-5">
 								<br class="hidden-sm hidden-xs">
@@ -104,8 +104,8 @@
 										<i class="fa fa-diamond"></i>
 									</div>
 									<div class="body">
-										<h2>Elegant</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto assumenda consequatur qui voluptatum ullam cumque dolor.</p>
+										<h2>Totalgrades</h2>
+										<p>Total Grades is an easy to use online platform that encourages and empowers students to improve their grades while allowing parents to be actively enganged.</p>
 										<a href="page-services.html" class="link"><span>Read More</span></a>
 									</div>
 								</div>
