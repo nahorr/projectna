@@ -18,6 +18,8 @@
 			</div>
 			<!-- banner end -->
 
+
+
 			<!-- page-top start-->
 			<!-- ================ -->
 			<div class="page-top object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
@@ -81,92 +83,62 @@
 			</div>
 			<!-- page-top end -->
 
-			<!-- section start -->
+			<!-- page-top start-->
 			<!-- ================ -->
-			<div class="section gray-bg clearfix">
-				<div class="container">
-					<h1 class="text-center title">More Features</h1>
-					<div class="row grid-space-10">
-						<div class="col-sm-4">
-							<div class="box-style-2 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
-								<div class="icon-container default-bg">
-									<i class="fa fa-leaf"></i>
-								</div>
-								<div class="body">
-									<h2>Clean Design and Code</h2>
-									<p>Voluptatem ad provident non veritatis beatae cupiditate amet reiciendis.</p>
-									<a href="page-services.html" class="link"><span>Read More</span></a>
-								</div>
+			<div id="page-top" class="page-top object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
+				<div class="clearfix">
+					<div class="col-md-12">
+						<h1 class="text-center title">Products</h1>
+						<div class="separator"></div>
+						<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<div class="row grid-space-20">
+							<div class="col-md-12 col-lg-5">
+								<br class="hidden-sm hidden-xs">
+								<br class="hidden-sm hidden-xs">
+								<img src="{{asset('idea/images/totalgrads-products.png')}} alt="totalgrades" class="object-non-visible center-block" data-animation-effect="fadeInUp" data-effect-delay="0">
 							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="box-style-2 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
-								<div class="icon-container default-bg">
-									<i class="fa fa-laptop"></i>
+							<div class="col-md-6 col-lg-3">
+								<br class="hidden-xs">
+								<div class="box-style-3 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
+									<div class="icon-container default-bg circle">
+										<i class="fa fa-diamond"></i>
+									</div>
+									<div class="body">
+										<h2>Elegant</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto assumenda consequatur qui voluptatum ullam cumque dolor.</p>
+										<a href="page-services.html" class="link"><span>Read More</span></a>
+									</div>
 								</div>
-								<div class="body">
-									<h2>Very Flexible</h2>
-									<p>Iure sequi unde hic. Sapiente quaerat labore inventore veritatis cumque.</p>
-									<a href="page-services.html" class="link"><span>Read More</span></a>
+								<div class="box-style-3 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
+									<div class="icon-container default-bg circle">
+										<i class="fa fa-bold"></i>
+									</div>
+									<div class="body">
+										<h2>Bootstrap Based</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cumque voluptates quos quis ullam aliquid saepe quam.</p>
+										<a href="page-services.html" class="link"><span>Read More</span></a>
+									</div>
 								</div>
+								<div class="box-style-3 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
+									<div class="icon-container default-bg circle">
+										<i class="fa fa-check"></i>
+									</div>
+									<div class="body">
+										<h2>Unlimited Options</h2>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nisi repellendus necessitatibus inventore.</p>
+										<a href="page-services.html" class="link"><span>Read More</span></a>
+									</div>
+								</div>
+								<br class="hidden-xs hidden-sm">
 							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="box-style-2 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="400">
-								<div class="icon-container default-bg">
-									<i class="fa fa-sitemap"></i>
-								</div>
-								<div class="body">
-									<h2>Latest Technologies</h2>
-									<p>Inventore dolores aut laboriosam cum consequuntur delectus sequi! Eum est.</p>
-									<a href="page-services.html" class="link"><span>Read More</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row grid-space-10">
-						<div class="col-sm-4">
-							<div class="box-style-2 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="600">
-								<div class="icon-container default-bg">
-									<i class="fa fa-bold"></i>
-								</div>
-								<div class="body">
-									<h2>Packed Full of Features</h2>
-									<p>Voluptatem ad provident non veritatis beatae cupiditate amet reiciendis.</p>
-									<a href="page-services.html" class="link"><span>Read More</span></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="box-style-2 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="800">
-								<div class="icon-container default-bg">
-									<i class="fa fa-check"></i>
-								</div>
-								<div class="body">
-									<h2>100% Responsive</h2>
-									<p>Iure sequi unde hic. Sapiente quaerat labore inventore veritatis cumque.</p>
-									<a href="page-services.html" class="link"><span>Read More</span></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="box-style-2 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="1000">
-								<div class="icon-container default-bg">
-									<i class="fa fa-bicycle"></i>
-								</div>
-								<div class="body">
-									<h2>After Sale Support</h2>
-									<p>Inventore dolores aut laboriosam cum consequuntur delectus sequi! Eum est.</p>
-									<a href="page-services.html" class="link"><span>Contact Us</span></a>
-								</div>
-							</div>
+							
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- section end -->
+			<!-- page-top end -->
 
-		
+					
             @include('includes.footer')
 
             @include('includes.subfooter')
