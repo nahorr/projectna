@@ -109,27 +109,13 @@
 										<a href="page-services.html" class="link"><span>Read More</span></a>
 									</div>
 								</div>
-								<div class="box-style-3 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
-									<div class="icon-container default-bg circle">
-										<i class="fa fa-bold"></i>
-									</div>
-									<div class="body">
-										<h2>Bootstrap Based</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut cumque voluptates quos quis ullam aliquid saepe quam.</p>
-										<a href="page-services.html" class="link"><span>Read More</span></a>
-									</div>
-								</div>
-								<div class="box-style-3 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
-									<div class="icon-container default-bg circle">
-										<i class="fa fa-check"></i>
-									</div>
-									<div class="body">
-										<h2>Unlimited Options</h2>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus nisi repellendus necessitatibus inventore.</p>
-										<a href="page-services.html" class="link"><span>Read More</span></a>
-									</div>
-								</div>
+								
 								<br class="hidden-xs hidden-sm">
+							</div>
+							<div class="col-md-6 col-lg-3">
+								<br class="hidden-sm hidden-xs">
+								<br class="hidden-sm hidden-xs">
+								<img src="{{asset('idea/images/totalgrades-products.png')}}" alt="totalgrades" class="object-non-visible center-block" data-animation-effect="fadeInUp" data-effect-delay="0">
 							</div>
 							
 						</div>
