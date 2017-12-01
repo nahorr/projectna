@@ -47,13 +47,15 @@
 										<p>{{@$job->about_us}}</p>
 										<h3>{{@$job->d_and_r_title}}</h3>
 										<p>{{@$job->duties_and_responsibilities}}</p>
+										<h3>Requirements:</h3>
 										<ul class="list-icons">
 											@foreach($job_requirements as $requirement)
 											<li><i class="icon-check"></i> {{$requirement->req_description}} </li>
 											@endforeach
 										</ul>
+										<br>
 										<p>{{@$job->afterword}}</p>
-										<p>For details, please visit our <strong><a href="{{asset('/careers')}}">careers section</a></strong> of and complete an online application.</p>
+										
 
 										
 									</div>

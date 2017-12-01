@@ -19,7 +19,7 @@ Class PublicViewComposer {
         $today = Carbon::today();
         
         //count jobs less than or equal to a weeks old          
-        $new_jobs = Job::whereDate('created_at', '<', Carbon::now()->subDays(7))->count();
+        $new_jobs = Job::count();
 
 
         //put variables in views
