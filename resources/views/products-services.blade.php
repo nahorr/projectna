@@ -95,7 +95,7 @@
 							<div class="col-md-12 col-lg-5">
 								<br class="hidden-sm hidden-xs">
 								<br class="hidden-sm hidden-xs">
-								<img src="{{asset('idea/images/totalgrads-products.png')}}" alt="totalgrades" class="object-non-visible center-block" data-animation-effect="fadeInUp" data-effect-delay="0">
+								<img src="{{asset('idea/images/totalgrades-products.png')}}" alt="totalgrades" class="object-non-visible center-block" data-animation-effect="fadeInUp" data-effect-delay="0">
 							</div>
 							<div class="col-md-6 col-lg-3">
 								<br class="hidden-xs">
