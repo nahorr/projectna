@@ -95,7 +95,7 @@
                 </li>
                 @if(Auth::user()->is_admin)
                 <li role="presentation">
-                  <a href="{{url('/admin/home')}}">
+                  <a href="{{url('/admin/home')}}" data-toggle="dropdown" aria-expanded="false">
                     <i class="fa fa-user-plus"></i>Admin
                   </a>
                 </li>

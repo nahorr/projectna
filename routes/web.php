@@ -30,7 +30,8 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 //Logged in Admin users
-Route::group(['prefix' => 'administration', 'middleware' => ['auth', 'admin']], function()
-{
-	Route::get('/adminhome', 'Admin\HomeController@index');
+Route::group(['middleware' => 'admin'], function () {
+    
+    Route::get('/admin/home', 'Admin\HomeController@index');
+
 });
