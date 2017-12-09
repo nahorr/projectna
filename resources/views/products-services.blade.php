@@ -50,7 +50,7 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit perspiciatis neque hic officia ullam quis quam molestias, tempora dicta exercitationem pariatur, perferendis ipsa laudantium rerum quasi debitis voluptas possimus, vitae.</p>
 						</div>
 						<div class="col-md-6">
-							<img src="images/section-image-3.png" alt="">
+							<img src="{{asset('idea/images/nahorr-services-2.png')}}" alt="">
 							<div class="space hidden-md hidden-lg"></div>
 						</div>
 					</div>
@@ -65,7 +65,7 @@
 					<br>
 					<div class="row">
 						<div class="col-md-6">
-							<img src="images/section-image-2.png" alt="">
+							<img src="{{asset('idea/images/nahorr-services-3.png')}}" alt="">
 							<div class="space hidden-md hidden-lg"></div>
 						</div>
 						<div class="col-md-6">
@@ -88,7 +88,7 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit perspiciatis neque hic officia ullam quis quam molestias, tempora dicta exercitationem pariatur, perferendis ipsa laudantium rerum quasi debitis voluptas possimus, vitae.</p>
 						</div>
 						<div class="col-md-6">
-							<img src="images/section-image-1.png" alt="">
+							<img src="{{asset('idea/images/nahorr-services-4.png')}}" alt="">
 							<div class="space hidden-md hidden-lg"></div>
 						</div>
 					</div>
