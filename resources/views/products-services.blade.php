@@ -12,7 +12,6 @@
 					<div class="space-top"></div>
 					<h1>Products & Services</h1>
 					<div class="separator-2"></div>
-					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae sit excepturi, <br class="hidden-xs hidden-sm"> hic officiis illo dolore sunt assumenda saepe id commodi sint praesentium <br class="hidden-xs hidden-sm"> natus laborum quas cumque facilis, suscipit aliquam dolorum.</p>
 					</div>
 				</div>
 			</div>
@@ -28,7 +27,7 @@
 						<div class="col-md-12">
 							<h1 class="text-center title">Core Services</h1>
 							<div class="separator"></div>
-							<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<p class="text-center">Our core services are list below:</p>
 							<div class="row grid-space-20">
 								<div class="col-sm-6">
 									<div class="box-style-3 right object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
@@ -37,8 +36,8 @@
 										</div>
 										<div class="body">
 											<h2>Data Collection & Analysis</h2>
-											<p>Voluptatem ad provident non veritatis beatae cupiditate amet reiciendis.</p>
-											<a href="page-services.html" class="link"><span>Read More</span></a>
+											<p>We provide data collection, analysis, and visualization services.</p>
+											<a href="{{url('/')}}" class="link"><span>Read More</span></a>
 										</div>
 									</div>
 									<div class="box-style-3 right object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
@@ -47,7 +46,7 @@
 										</div>
 										<div class="body">
 											<h2>Software Development</h2>
-											<p>Iure sequi unde hic. Sapiente quaerat labore inventore veritatis cumque.</p>
+											<p>We provide custom software solutions.</p>
 											<a href="page-services.html" class="link"><span>Read More</span></a>
 										</div>
 									</div>
@@ -60,7 +59,7 @@
 										</div>
 										<div class="body">
 											<h2>Data Driven Website Design</h2>
-											<p>Voluptatem ad provident non veritatis beatae cupiditate amet reiciendis.</p>
+											<p>We provide custome web development solutions for businesses.</p>
 											<a href="page-services.html" class="link"><span>Read More</span></a>
 										</div>
 									</div>
@@ -70,7 +69,7 @@
 										</div>
 										<div class="body">
 											<h2>Training and Talent Development</h2>
-											<p>Iure sequi unde hic. Sapiente quaerat labore inventore veritatis cumque.</p>
+											<p>we provide skills training and talent development services.</p>
 											<a href="page-services.html" class="link"><span>Read More</span></a>
 										</div>
 									</div>
