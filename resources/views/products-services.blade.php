@@ -138,6 +138,9 @@
 										<a href="https://totalgrades.com/" class="link"><span>Read More</span></a>
 									</div>
 								</div>
+								<div class="text-center">
+						<a href="#" class="btn btn-warning" >Contact Us</a>
+					</div>
 								
 								<br class="hidden-xs hidden-sm">
 							</div>
@@ -149,9 +152,7 @@
 							
 						</div>
 					</div>
-					<div class="text-center">
-						<a href="#" class="btn btn-warning" >Contact Us</a>
-					</div>
+					
 				</div>
 			</div>
 			<!-- page-top end -->
