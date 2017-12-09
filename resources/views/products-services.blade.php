@@ -35,6 +35,9 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit perspiciatis neque hic officia ullam quis quam molestias, tempora dicta exercitationem pariatur, perferendis ipsa laudantium rerum quasi debitis voluptas possimus, vitae.</p>
 						</div>
 					</div>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning" >Contact Us</a>
+					</div>
 				</div>
 			</div>
 			<!-- section end -->
@@ -56,6 +59,9 @@
 							<div class="space hidden-md hidden-lg"></div>
 						</div>
 					</div>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning" >Contact Us</a>
+					</div>
 				</div>
 			</div>
 			<!-- section end -->
@@ -76,6 +82,9 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit perspiciatis neque hic officia ullam quis quam molestias, tempora dicta exercitationem pariatur, perferendis ipsa laudantium rerum quasi debitis voluptas possimus, vitae.</p>
 						</div>
 					</div>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning" >Contact Us</a>
+					</div>
 				</div>
 			</div>
 			<!-- section end -->
@@ -95,6 +104,9 @@
 							<img src="{{asset('idea/images/nahorr-services-4.png')}}" alt="">
 							<div class="space hidden-md hidden-lg"></div>
 						</div>
+					</div>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning" >Contact Us</a>
 					</div>
 				</div>
 			</div>
@@ -123,7 +135,7 @@
 									<div class="body">
 										<h2>Totalgrades</h2>
 										<p>Total Grades is an easy to use online platform that encourages and empowers students to improve their grades while allowing parents to be actively enganged.</p>
-										<a href="page-services.html" class="link"><span>Read More</span></a>
+										<a href="https://totalgrades.com/" class="link"><span>Read More</span></a>
 									</div>
 								</div>
 								
@@ -136,6 +148,9 @@
 							</div>
 							
 						</div>
+					</div>
+					<div class="text-center">
+						<a href="#" class="btn btn-warning" >Contact Us</a>
 					</div>
 				</div>
 			</div>
