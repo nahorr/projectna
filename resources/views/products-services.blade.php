@@ -24,6 +24,7 @@
 			<div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
 				<div class="container">
 					<br>
+					<h3 class="text-center title"><strong>Custom Software Solutions</strong></h3>
 					<div class="row">
 						<div class="col-md-6">
 							<img src="{{asset('idea/images/nahorr-services-1.png')}}" alt="">
@@ -44,6 +45,7 @@
 			<div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
 				<div class="container">
 					<br>
+					<h3 class="text-center title"><strong>Data Collection and Analysis Services</strong></h3>
 					<div class="row">
 						<div class="col-md-6">
 							<p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero quae. Vero beatae voluptatum, illo quaerat provident doloribus consequuntur saepe, id quas animi vel ad eligendi adipisci.</p>
@@ -63,6 +65,7 @@
 			<div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
 				<div class="container">
 					<br>
+					<h3 class="text-center title"><strong>Data Driven Website Development</strong></h3>
 					<div class="row">
 						<div class="col-md-6">
 							<img src="{{asset('idea/images/nahorr-services-3.png')}}" alt="">
@@ -82,6 +85,7 @@
 			<div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
 				<div class="container">
 					<br>
+					<h3 class="text-center title"><strong>Skills Training and Talent Development</strong></h3>
 					<div class="row">
 						<div class="col-md-6">
 							<p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero quae. Vero beatae voluptatum, illo quaerat provident doloribus consequuntur saepe, id quas animi vel ad eligendi adipisci.</p>
