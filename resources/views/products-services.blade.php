@@ -7,7 +7,7 @@
             <!-- banner start -->
 			<!-- ================ -->
 			<div class="banner">
-				<div class="fixed-image section light-translucent-bg" style="background-image:url('idea/images/page-services-banner.jpg');">
+				<div class="fixed-image section light-translucent-bg" style="background-image:url('idea/images/nahorr-services.jpg');">
 					<div class="container">
 					<div class="space-top"></div>
 					<h1>Products & Services</h1>
