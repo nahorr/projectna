@@ -130,7 +130,7 @@
 								<br class="hidden-xs">
 								<div class="box-style-3 object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="0">
 									<div class="icon-container default-bg circle">
-										<i class="fa fa-diamond"></i>
+										<i class="fa fa-bar-chart"></i>
 									</div>
 									<div class="body">
 										<h2>Totalgrades</h2>
