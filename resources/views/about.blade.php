@@ -39,7 +39,7 @@
 								<div class="col-md-8">
 									<p>Nahorr Analytics is a software and data analytics company. We bring software, data and ideas together to meet local and global needs. We belive in using software and data to better processes and to provide and display information in a manner that improves decision making and planning.</p>
 									
-									<p>We are a new but fast growing company made up of a team of thinkers, builders, doers, and innovators. We bring passion to we do. We meet opportunities and challenges head-on, with unwavering optimism, innovation, collaboration, and resourcefulness.</p>
+									<p>We are a new but fast growing company made up of a team of thinkers, builders, doers, and innovators. We bring passion to what we do. We meet opportunities and challenges head-on, with unwavering optimism, innovation, collaboration, and resourcefulness.</p>
 									<h2>Core Services</h2>
 									<ul class="list-icons">
 										<li class="object-non-visible" data-animation-effect="fadeInUpSmall"><i class="icon-check"></i> Software Development</li>

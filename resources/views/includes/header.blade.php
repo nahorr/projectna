@@ -30,7 +30,7 @@
                                         <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-phone"></i> +14034022387</button>
                                     </div>
                                     <div class="btn-group dropdown">
-                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-phone"></i> 08035525141</button>
+                                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-phone"></i> +2348060776024</button>
                                     </div>
                                 </div>
                                 <!--  header top dropdowns end -->

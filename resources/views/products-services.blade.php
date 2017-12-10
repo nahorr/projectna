@@ -31,7 +31,7 @@
 							<div class="space hidden-md hidden-lg"></div>
 						</div>
 						<div class="col-md-6">
-							<p class="space-top">Software development is the bedrock of the services we provide and the products we develope at Nahorr Analytics. We take pride in developing and designing custom software solutions for our clients. we belive in easy to use yet robost software solutions that increase efficiency and enhance productivity. </p>
+							<p class="space-top">Software development is the bedrock of the services we provide and the products we develope at Nahorr Analytics. We take pride in designing and developing custom software solutions for our clients. We belive in easy to use yet robost software solutions that increase efficiency and enhance productivity. </p>
 							<p></p>
 						</div>
 					</div>
