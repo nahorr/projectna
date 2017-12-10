@@ -51,7 +51,7 @@
 					<h3 class="text-center title"><strong>Data Collection and Analysis Services</strong></h3>
 					<div class="row">
 						<div class="col-md-6">
-							<p class="space-top">Our world is becoming very dependent of our ability to collect and analyse data. Collecting and analysing data in government or business orginations can lead to better policies or improved business processes. Be it environmrntal, social, or economic data,  at Nahorr Analytics, we help build systems and procedures to effectively collect, analyse , and present data in a meaningful way. We carefully designed our data collection processes to ensure quality data that our clients can depend on on use confidently.</p>
+							<p class="space-top">Our world is becoming very dependent on our ability to collect and analyse data. Collecting and analysing data in government or business orginations can lead to better policies or improved business processes. Be it environmrntal, social, or economic data,  at Nahorr Analytics, we help build systems and procedures to effectively collect, analyse , and present data in a meaningful way. We carefully designed our data collection processes to ensure quality data that our clients can depend on and use confidently.</p>
 							
 						</div>
 						<div class="col-md-6">
@@ -78,7 +78,7 @@
 							<div class="space hidden-md hidden-lg"></div>
 						</div>
 						<div class="col-md-6">
-							<p class="space-top">A company's websites is a getway into the world. It defines how the orgainization views itself. We belive that a website should display more that just information. It should be a dynamic and intelligent sets of codes that can interact with its visitor. At Nahorr Analytics, we will design a website you will feel very proud to own that you would tell the world about it at every oppurtunity.</p>
+							<p class="space-top">A company's websites is a getway into the world. It defines how the orgainization views itself. We belive that a website should display more that just information. It should be a dynamic and intelligent sets of codes that can interact with visitors. At Nahorr Analytics, we will design a website you will feel very proud to own that you would tell the world about it at every oppurtunity.</p>
 							
 						</div>
 					</div>
