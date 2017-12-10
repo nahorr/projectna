@@ -31,12 +31,12 @@
 							<div class="space hidden-md hidden-lg"></div>
 						</div>
 						<div class="col-md-6">
-							<p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero quae. Vero beatae voluptatum, illo quaerat provident doloribus consequuntur saepe, id quas animi vel ad eligendi adipisci.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit perspiciatis neque hic officia ullam quis quam molestias, tempora dicta exercitationem pariatur, perferendis ipsa laudantium rerum quasi debitis voluptas possimus, vitae.</p>
+							<p class="space-top">Software development is the bedrock of the services we provide and the products we develope at Nahorr Analytics. We take pride in developing and designing custom software solutions for our clients. we belive in easy to use yet robost software solutions that increase efficiency and enhance productivity. </p>
+							<p></p>
 						</div>
 					</div>
 					<div class="text-center">
-						<a href="#" class="btn btn-warning" >Contact Us</a>
+						<a href="{{asset('/contact')}}" class="btn btn-warning" >Contact Us</a>
 					</div>
 				</div>
 			</div>
@@ -51,8 +51,8 @@
 					<h3 class="text-center title"><strong>Data Collection and Analysis Services</strong></h3>
 					<div class="row">
 						<div class="col-md-6">
-							<p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero quae. Vero beatae voluptatum, illo quaerat provident doloribus consequuntur saepe, id quas animi vel ad eligendi adipisci.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit perspiciatis neque hic officia ullam quis quam molestias, tempora dicta exercitationem pariatur, perferendis ipsa laudantium rerum quasi debitis voluptas possimus, vitae.</p>
+							<p class="space-top">Our world is becoming very dependent of our ability to collect and analyse data. Collecting and analysing data in government or business orginations can lead to better policies or improved business processes. Be it environmrntal, social, or economic data,  at Nahorr Analytics, we help build systems and procedures to effectively collect, analyse , and present data in a meaningful way. We carefully designed our data collection processes to ensure quality data that our clients can depend on on use confidently.</p>
+							
 						</div>
 						<div class="col-md-6">
 							<img src="{{asset('idea/images/nahorr-services-2.png')}}" alt="">
@@ -60,7 +60,7 @@
 						</div>
 					</div>
 					<div class="text-center">
-						<a href="#" class="btn btn-warning" >Contact Us</a>
+						<a href="{{asset('/contact')}}" class="btn btn-warning" >Contact Us</a>
 					</div>
 				</div>
 			</div>
@@ -78,12 +78,12 @@
 							<div class="space hidden-md hidden-lg"></div>
 						</div>
 						<div class="col-md-6">
-							<p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero quae. Vero beatae voluptatum, illo quaerat provident doloribus consequuntur saepe, id quas animi vel ad eligendi adipisci.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit perspiciatis neque hic officia ullam quis quam molestias, tempora dicta exercitationem pariatur, perferendis ipsa laudantium rerum quasi debitis voluptas possimus, vitae.</p>
+							<p class="space-top">A company's websites is a getway into the world. It defines how the orgainization views itself. We belive that a website should display more that just information. It should be a dynamic and intelligent sets of codes that can interact with its visitor. At Nahorr Analytics, we will design a website you will feel very proud to own that you would tell the world about it at every oppurtunity.</p>
+							
 						</div>
 					</div>
 					<div class="text-center">
-						<a href="#" class="btn btn-warning" >Contact Us</a>
+						<a href="{{asset('/contact')}}" class="btn btn-warning" >Contact Us</a>
 					</div>
 				</div>
 			</div>
@@ -97,8 +97,10 @@
 					<h3 class="text-center title"><strong>Skills Training and Talent Development</strong></h3>
 					<div class="row">
 						<div class="col-md-6">
-							<p class="space-top">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi veniam, veritatis sint consequuntur! Natus, culpa, explicabo! Non quo laboriosam nobis quia, amet excepturi optio dolor impedit. Perferendis libero unde, nulla deserunt sequi. Voluptatum, officia suscipit porro reprehenderit vitae quo rem reiciendis, a vero quae. Vero beatae voluptatum, illo quaerat provident doloribus consequuntur saepe, id quas animi vel ad eligendi adipisci.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit perspiciatis neque hic officia ullam quis quam molestias, tempora dicta exercitationem pariatur, perferendis ipsa laudantium rerum quasi debitis voluptas possimus, vitae.</p>
+							<p class="space-top">When it come to skills development and training, our philosophy is simple - THINK LEARN THINK. Thought is the way we bring things into existence. If you wish to develope a good software, you have to think about it first. So  at Nahorr Analytics, we belive that the best way to develpe a brian is through thinking, learning, and thinking.</p> <P>Our training programs are designed to show you how to develope your brain by thinking of and building real world applications that could be commercialized right away. But not to worry, you have a team of friends to help you all the way. We are like a family at nahorr analytics. We help you do what would even amaze you.</P>
+
+							
+							
 						</div>
 						<div class="col-md-6">
 							<img src="{{asset('idea/images/nahorr-services-4.png')}}" alt="">
@@ -106,7 +108,7 @@
 						</div>
 					</div>
 					<div class="text-center">
-						<a href="#" class="btn btn-warning" >Contact Us</a>
+						<a href="{{asset('/contact')}}" class="btn btn-warning" >Contact Us</a>
 					</div>
 				</div>
 			</div>
@@ -139,7 +141,7 @@
 									</div>
 								</div>
 								<div class="text-center">
-						<a href="#" class="btn btn-warning" >Contact Us</a>
+						<a href="{{asset('/contact')}}" class="btn btn-warning" >Contact Us</a>
 					</div>
 								
 								<br class="hidden-xs hidden-sm">
