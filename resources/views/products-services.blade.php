@@ -78,7 +78,7 @@
 							<div class="space hidden-md hidden-lg"></div>
 						</div>
 						<div class="col-md-6">
-							<p class="space-top">A company's websites is a getway into the world. It defines how the orgainization views itself. We belive that a website should display more that just information. It should be a dynamic and intelligent sets of codes that can interact with visitors. At Nahorr Analytics, we will design a website you will feel very proud to own that you would tell the world about it at every oppurtunity.</p>
+							<p class="space-top">A company's websites is a getway into the world. It defines how the orgainization views itself. We belive that a website should display more that just information. It should be a dynamic and intelligent sets of codes that can interact with its users. At Nahorr Analytics, we will design a website you will feel very proud to own that you would tell the world about it at every oppurtunity.</p>
 							
 						</div>
 					</div>
