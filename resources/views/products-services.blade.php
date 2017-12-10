@@ -97,7 +97,7 @@
 					<h3 class="text-center title"><strong>Skills Training and Talent Development</strong></h3>
 					<div class="row">
 						<div class="col-md-6">
-							<p class="space-top">When it come to skills development and training, our philosophy is simple - THINK LEARN THINK. Thought is the way we bring things into existence. If you wish to develope a good software, you have to think about it first. So  at Nahorr Analytics, we belive that the best way to develpe a brian is through thinking, learning, and thinking.</p> <P>Our training programs are designed to show you how to develope your brain by thinking of and building real world applications that could be commercialized right away. But not to worry, you have a team of friends to help you all the way. We are like a family at nahorr analytics. We help you do what would even amaze you.</P>
+							<p class="space-top">When it comes to skills development and training, our philosophy is simple - THINK LEARN THINK. Thought is the way we bring things into existence. If you wish to develope a good software, you have to think about it first. So  at Nahorr Analytics, we belive that the best way to develpe a brian is through thinking, learning, and thinking.</p> <P>Our training programs are designed to show you how to develope your brain by thinking of and building real world applications that could be commercialized right away. But not to worry, you have a team of friends to help you all the way. We are like a family at nahorr analytics. We help you do what would even amaze you.</P>
 
 							
 							
