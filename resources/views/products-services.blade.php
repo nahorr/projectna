@@ -91,6 +91,7 @@
 			<hr>
 			<!-- section start -->
 			<!-- ================ -->
+			{{--
 			<div class="section clearfix object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="200">
 				<div class="container">
 					<br>
@@ -113,7 +114,7 @@
 				</div>
 			</div>
 			<!-- section end -->
-
+			--}}
 			<!-- page-top start-->
 			<!-- ================ -->
 			<div id="page-top" class="page-top object-non-visible" data-animation-effect="fadeInUpSmall" data-effect-delay="100">
