@@ -87,35 +87,7 @@
                                     data-endspeed="600">Integrated Smart Websites Design
                                 </div>
 
-                                <!-- LAYER NR. 8 -->
-                                <div class="tp-caption dark_gray_bg sfl medium tp-resizeme"
-                                    data-x="0"
-                                    data-y="320" 
-                                    data-speed="600"
-                                    data-start="2200"
-                                    data-end="9400"
-                                    data-endspeed="600"><i class="icon-check"></i>
-                                </div>
-
-                                <!-- LAYER NR. 9 -->
-                                <div class="tp-caption light_gray_bg sfb medium tp-resizeme"
-                                    data-x="50"
-                                    data-y="320" 
-                                    data-speed="600"
-                                    data-start="2200"
-                                    data-end="9400"
-                                    data-endspeed="600">Training and Talent Development
-                                </div>
-
-                                <!-- LAYER NR. 10 -->
-                                <div class="tp-caption dark_gray_bg sfb medium tp-resizeme"
-                                    data-x="0"
-                                    data-y="370" 
-                                    data-speed="600"
-                                    data-start="2400"
-                                    data-end="9400"
-                                    data-endspeed="600">And Much More...
-                                </div>
+                              
 
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption sfr tp-resizeme"
