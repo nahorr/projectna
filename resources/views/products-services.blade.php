@@ -127,7 +127,7 @@
 							<div class="col-md-12 col-lg-5">
 								<br class="hidden-sm hidden-xs">
 								<br class="hidden-sm hidden-xs">
-								<iframe width="360" height="215" src="https://www.youtube.com/embed/Bzn9dMX7ISs" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen class="object-non-visible center-block" data-animation-effect="fadeInUp" data-effect-delay="0"></iframe>
+								<iframe width="360" height="250" src="https://www.youtube.com/embed/Bzn9dMX7ISs" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen class="object-non-visible center-block" data-animation-effect="fadeInUp" data-effect-delay="0"></iframe>
 								
 							</div>
 							<div class="col-md-6 col-lg-3">
