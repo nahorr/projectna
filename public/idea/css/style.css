@@ -2063,7 +2063,7 @@ tbody {
 	text-align: center;
 	border-radius: 0;
 	text-transform: uppercase;
-	margin: 10px 0;
+	margin: -5px 0;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
@@ -2081,7 +2081,7 @@ tbody {
 	min-width: 210px;
 }
 .btn.btn-sm {
-	padding: 8px;
+	padding: 5px;
 	font-size: 12px;
 	min-width: 105px;
 }
