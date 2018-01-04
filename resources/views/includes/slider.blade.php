@@ -84,10 +84,39 @@
                                     data-speed="600"
                                     data-start="2000"
                                     data-end="9400"
-                                    data-endspeed="600">Integrated Smart Website Design
+                                    data-endspeed="600">Integrated Smart Websites Design
                                 </div>
 
-                               
+                                <!-- LAYER NR. 8 -->
+                                <div class="tp-caption dark_gray_bg sfl medium tp-resizeme"
+                                    data-x="0"
+                                    data-y="320" 
+                                    data-speed="600"
+                                    data-start="2200"
+                                    data-end="9400"
+                                    data-endspeed="600"><i class="icon-check"></i>
+                                </div>
+
+                                <!-- LAYER NR. 9 -->
+                                <div class="tp-caption light_gray_bg sfb medium tp-resizeme"
+                                    data-x="50"
+                                    data-y="320" 
+                                    data-speed="600"
+                                    data-start="2200"
+                                    data-end="9400"
+                                    data-endspeed="600">Training and Talent Development
+                                </div>
+
+                                <!-- LAYER NR. 10 -->
+                                <div class="tp-caption dark_gray_bg sfb medium tp-resizeme"
+                                    data-x="0"
+                                    data-y="370" 
+                                    data-speed="600"
+                                    data-start="2400"
+                                    data-end="9400"
+                                    data-endspeed="600">And Much More...
+                                </div>
+
                                 <!-- LAYER NR. 11 -->
                                 <div class="tp-caption sfr tp-resizeme"
                                     data-x="right"
@@ -211,18 +240,13 @@
                                 </div>
 
                                 <!-- LAYER NR. 11 -->
-                                <div class="tp-caption sfr"
-                                    data-x="right" data-hoffset="-660"
+                                <div class="tp-caption sfr tp-resizeme"
+                                    data-x="right"
                                     data-y="center" 
                                     data-speed="600"
                                     data-start="2700"
-                                    data-endspeed="600"
-                                    data-autoplay="false"
-                                    data-autoplayonlyfirsttime="false"
-                                    data-nextslideatend="true">
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" src='https://www.youtube.com/embed/Bzn9dMX7ISs?enablejsapi=1&amp;html5=1&amp;hd=1&amp;wmode=opaque&amp;controls=1&amp;showinfo=0;rel=0;' width='640' height='360' style='width:640px;height:360px;'></iframe>
-                                    </div>
+                                    data-end="9400"
+                                    data-endspeed="600"><img src="{{asset('idea/images/slider-1-layer-2.png')}}" alt="">
                                 </div>
 
 

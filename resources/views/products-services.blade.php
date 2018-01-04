@@ -127,7 +127,8 @@
 							<div class="col-md-12 col-lg-5">
 								<br class="hidden-sm hidden-xs">
 								<br class="hidden-sm hidden-xs">
-								<img src="{{asset('idea/images/totalgrades-products-1.png')}}" alt="totalgrades" class="object-non-visible center-block" data-animation-effect="fadeInUp" data-effect-delay="0">
+								<iframe width="360" height="215" src="https://www.youtube.com/embed/Bzn9dMX7ISs" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen class="object-non-visible center-block" data-animation-effect="fadeInUp" data-effect-delay="0"></iframe>
+								
 							</div>
 							<div class="col-md-6 col-lg-3">
 								<br class="hidden-xs">
@@ -137,7 +138,7 @@
 									</div>
 									<div class="body">
 										<h2>Totalgrades</h2>
-										<p>Total Grades is an easy to use online platform that encourages and empowers students to improve their grades while allowing parents to be actively enganged.</p>
+										<p>Total Grades is an easy to use online gardes management platform that encourages and empowers students to improve their grades while allowing parents to be actively enganged.</p>
 										<a href="https://totalgrades.com/" class="link"><span>Read More</span></a>
 									</div>
 								</div>
