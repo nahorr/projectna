@@ -23,6 +23,10 @@ Route::post('/careers/postjobapplicationform', 'HomePublicController@postJobAppl
 Route::get('/contact', 'HomePublicController@contact');
 Route::post('/postcontactform', 'HomePublicController@postContactForm');
 
+//Stripe Payment Testing
+Route::get('/stripe/test', 'Stripe\StripeController@index');
+Route::post('/stripe/charge', 'Stripe\StripeController@charge');
+
 //Auth routes
 Auth::routes();
 
