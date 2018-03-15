@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <title>Nahorr | Home</title>
-        <meta name="description" content="Nahorr Analytics - a spftware and data analytics company">
+        <meta name="description" content="Nahorr Analytics - a software and data analytics company">
         <meta name="author" content="nahorr.com">
 
         <!-- Mobile Meta -->
